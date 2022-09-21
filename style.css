@@ -1,4 +1,20 @@
 /* Modelo e Caixa */
 .conteudo {
-    border: red solid;
+    border: red 1px solid;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* Pode colocar só um padding para esses 4 padding:
+    padding: 20px 15px 10px 5px;
+    Ou:
+    padding: 20px 5px;-> primeiro cima e baixo e segundo direita e esquerda*/
+    /* També pode utilizar só um margin:
+    margin: 20px; ou
+    margin: 20px 10px; */
 }
